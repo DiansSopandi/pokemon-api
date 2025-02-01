@@ -50,6 +50,7 @@ node src/scraper.js
 
 node src/index.js  
 also you can start the server with these command below 
+
 *)  npm run dev  
 *)  npm run start
 
