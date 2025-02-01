@@ -24,6 +24,7 @@ A **Node.js** API that scrapes Pokémon data, stores it in **MongoDB**, and prov
 
 1️⃣ Clone the Repository  
 git clone https://github.com/DiansSopandi/pokemon-api.git
+
 cd pokemon-api
 
 2️⃣ Install Dependencies
