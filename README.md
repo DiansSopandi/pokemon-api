@@ -43,9 +43,11 @@ MONGO_URI=mongodb://localhost:27017/pokemonDB
 PORT=7000
 
 4️⃣ Run the Scraper (To Populate the Database)
+
 node src/scraper.js
 
 5️⃣ Start the API Server
+
 node src/index.js  
 also you can start the server with these command below 
 *)  npm run dev  
