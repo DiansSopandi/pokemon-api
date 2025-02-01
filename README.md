@@ -40,6 +40,7 @@ npm install
 Create a .env file and add:
 
 MONGO_URI=mongodb://localhost:27017/pokemonDB
+
 PORT=7000
 
 4️⃣ Run the Scraper (To Populate the Database)
