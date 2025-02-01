@@ -32,6 +32,7 @@ git clone https://github.com/DiansSopandi/pokemon-api.git
 cd pokemon-api
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Configure Environment Variables
