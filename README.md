@@ -49,6 +49,7 @@ GET /api/pokemon
 Returns Pokémon data in JSON:API format.
 
 Response Example:
+
 {
   "data": [
     {
@@ -67,6 +68,7 @@ Response Example:
 }
 
 
-Development Notes
+Development Notes:
+
 Ensure MongoDB is running locally (mongod) or use MongoDB Atlas.
 The scraper only runs once; run node scraper.js again if needed.
