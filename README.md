@@ -17,6 +17,10 @@ A **Node.js** API that scrapes Pokémon data, stores it in **MongoDB**, and prov
 - **Cheerio** (Web scraping)
 - **Mongoose** (MongoDB ORM)
 - **dotenv** (Environment variables)
+- **Nodemon** (Auto-restart for development)
+- **Concurrently** (Run multiple processes)
+- **Rimraf** (Cleanup for builds)
+
 
 ---
 
@@ -38,10 +42,13 @@ MONGO_URI=mongodb://localhost:27017/pokemonDB
 PORT=7000
 
 4️⃣ Run the Scraper (To Populate the Database)
-node scraper.js
+node src/scraper.js
 
 5️⃣ Start the API Server
-node index.js
+node src/index.js  
+also you can start the server with these command below 
+*)  npm run dev  
+*)  npm run start
 
 API Endpoints
 GET /api/pokemon
